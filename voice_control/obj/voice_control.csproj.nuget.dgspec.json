@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jxf\\Desktop\\voice_control\\voice_control\\voice_control.csproj": {}
+    "D:\\hanxuefeng\\Study\\Buaa\\一级实践\\作业\\大作业-智能家居控制系统\\voice_control\\voice_control\\voice_control.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jxf\\Desktop\\voice_control\\voice_control\\voice_control.csproj": {
+    "D:\\hanxuefeng\\Study\\Buaa\\一级实践\\作业\\大作业-智能家居控制系统\\voice_control\\voice_control\\voice_control.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jxf\\Desktop\\voice_control\\voice_control\\voice_control.csproj",
+        "projectUniqueName": "D:\\hanxuefeng\\Study\\Buaa\\一级实践\\作业\\大作业-智能家居控制系统\\voice_control\\voice_control\\voice_control.csproj",
         "projectName": "voice_control",
-        "projectPath": "C:\\Users\\jxf\\Desktop\\voice_control\\voice_control\\voice_control.csproj",
-        "packagesPath": "C:\\Users\\jxf\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jxf\\Desktop\\voice_control\\voice_control\\obj\\",
+        "projectPath": "D:\\hanxuefeng\\Study\\Buaa\\一级实践\\作业\\大作业-智能家居控制系统\\voice_control\\voice_control\\voice_control.csproj",
+        "packagesPath": "C:\\Users\\Xing\\.nuget\\packages\\",
+        "outputPath": "D:\\hanxuefeng\\Study\\Buaa\\一级实践\\作业\\大作业-智能家居控制系统\\voice_control\\voice_control\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\jxf\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Xing\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -43,6 +43,10 @@
             "Baidu.AI": {
               "target": "Package",
               "version": "[4.15.9, )"
+            },
+            "NAudio": {
+              "target": "Package",
+              "version": "[2.1.0, )"
             }
           },
           "imports": [
@@ -63,7 +67,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }
