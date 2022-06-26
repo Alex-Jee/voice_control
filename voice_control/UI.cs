@@ -69,9 +69,9 @@ namespace voice_control
                         textBox2.Text = text;
                         buttonSpeechMic.Enabled = true;
                         buttonIdentifyRightnow.Enabled = false;
-
-                        //TODO:继续处理下游NLP任务
-                        //..........
+                        depItems=NlpApp.TextParser(text);
+                        //TODO:继续处理指令
+                        //.....
 
                         break;
                     default:

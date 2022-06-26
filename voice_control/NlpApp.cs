@@ -28,5 +28,47 @@ namespace voice_control
             }
             return app;
         }
+        private struct StructDepItem
+        {
+            public int id;
+            public string postag;
+            public int head;
+            public string word;
+            public string deprel;
+        }
+        public static List<StructDepItem> TextParser(string text)
+        {
+            // 调用百度API
+            JObject result;
+            try
+            {
+                nlpClient = getApp();
+                result = nlpClient.DepParser(text.Trim());
+            }
+            catch (AipException exp)
+            {
+                MessageBox.Show(exp.Message, "错误", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+
+            // 整理结果数据
+            List<StructDepItem> depItems = new List<StructDepItem>();
+            int itemIndex = 1;
+            foreach (var item in result["items"])
+            {
+                StructDepItem depItem = new StructDepItem
+                {
+                    id = itemIndex++,
+                    postag = item["postag"].ToString(),
+                    head = item.Value<int>("head"),
+                    word = item["word"].ToString(),
+                    deprel = item["deprel"].ToString()
+                };
+                depItems.Add(depItem);
+                
+            }
+            
+            return depItems;
+        }
     }
 }
