@@ -36,7 +36,12 @@ namespace voice_control
             public string word;
             public string deprel;
         }
-        public static List<StructDepItem> TextParser(string text)
+        public struct CommandItem
+        {
+            public string item_id; // 主体id
+            public string action;
+        }
+        private List<StructDepItem> TextParser(string text)
         {
             // 调用百度API
             JObject result;
@@ -69,6 +74,11 @@ namespace voice_control
             }
             
             return depItems;
+        }
+        public static CommandItem getCommand(string text) {
+            depItems = TextParser(text);
+            // TODO: 获取指令返回ItemCommand
+            return null; 
         }
     }
 }
