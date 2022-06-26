@@ -24,11 +24,12 @@ namespace voice_control
         {
             if (app == null)
             {
+                string appId = "26546830";
                 string apiKey = "5aagdNRNZyz8L4cx394yVKLN";
                 string apiSecretKey = "fkvm2MrSS12q20Q7Vqc3Gi1gWk0rmA3j";
 
                 app = new AsrApp();
-                app.client = new Asr(KEY.APP_ID, apiKey, apiSecretKey);
+                app.client = new Asr(appId, apiKey, apiSecretKey);
                 //app.client = new Asr(KEY.APP_ID, KEY.API_KEY, KEY.SECRET_KEY);
                 app.client.Timeout = 60000;
             }
