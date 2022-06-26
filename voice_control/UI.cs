@@ -69,7 +69,7 @@ namespace voice_control
                         textBox2.Text = text;
                         buttonSpeechMic.Enabled = true;
                         buttonIdentifyRightnow.Enabled = false;
-                        itemCommand = NlpApp.getCommand(text);
+                        NlpApp.CommandItem itemCommand = NlpApp.getCommand(text);
                         //TODO:继续处理指令
                         //.....
 

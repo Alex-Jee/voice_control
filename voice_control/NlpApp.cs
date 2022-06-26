@@ -1,11 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Baidu.Aip;
 using Baidu.Aip.Nlp;
-using Baidu.Aip.Speech;
-using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 
 namespace voice_control
 {
@@ -41,19 +36,21 @@ namespace voice_control
             public string item_id; // 主体id
             public string action;
         }
-        private List<StructDepItem> TextParser(string text)
+        private static List<StructDepItem> TextParser(string text)
         {
             // 调用百度API
             JObject result;
             try
             {
-                nlpClient = getApp();
-                result = nlpClient.DepParser(text.Trim());
+                app = getApp();
+                System.Text.Encoding.RegisterProvider(System.Text.CodePagesEncodingProvider.Instance);
+                result = app.client.DepParser(text.Trim());
+                System.Console.WriteLine(result);
             }
             catch (AipException exp)
             {
                 MessageBox.Show(exp.Message, "错误", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                return;
+                return null;
             }
 
             // 整理结果数据
@@ -76,9 +73,11 @@ namespace voice_control
             return depItems;
         }
         public static CommandItem getCommand(string text) {
-            depItems = TextParser(text);
+            List<StructDepItem> depItems = TextParser(text);
             // TODO: 获取指令返回ItemCommand
-            return null; 
+            CommandItem cmdItem = new CommandItem { };
+            return cmdItem; 
         }
     }
+    
 }
