@@ -73,9 +73,55 @@ namespace voice_control
             return depItems;
         }
         public static CommandItem getCommand(string text) {
+            Dictionary<string, string> ItemIdTable =
+            new Dictionary<string, string>() {{"电灯", "1"},
+                                               {"电视", "2"},
+                                               {"扫地机", "3"},
+                                               };
             List<StructDepItem> depItems = TextParser(text);
             // TODO: 获取指令返回ItemCommand
             CommandItem cmdItem = new CommandItem { };
+            string applianceName = "";
+            if (depItems[0].postag == "PER" && depItems[0].word.Contains("小冰"))
+            { 
+                foreach (var depItem in depItems)
+                {
+
+                    //获取执行指令的主体
+                    if (depItem.postag == "n" || depItem.postag == "nz")
+                    {
+                        applianceName = depItem.word;
+                        if (applianceName == "电灯" || applianceName == "电视" || applianceName == "扫地机")
+                        {
+                            cmdItem.item_id = ItemIdTable[applianceName];
+                        }
+                        else
+                        {
+                            cmdItem.item_id = "0";
+                        }
+                        break;
+                    }
+                }
+                int hed_id = 0;
+                //获取执行指令主体成功后
+                if (cmdItem.item_id != "0")
+                {
+                    foreach (var depItem in depItems)
+                    {
+                        //获取执行指令的核心关系以及动作
+                        if (depItem.deprel == "HED")
+                        {
+                            cmdItem.action = depItem.word;
+                            hed_id = depItem.id;
+                        }
+                        if (depItem.id > hed_id && depItem.word != applianceName)
+                        {
+                            cmdItem.action = cmdItem.action + depItem.word;
+                        }
+                    }
+                    cmdItem.item_result = applianceName + cmdItem.action;
+                }   
+            }
             return cmdItem; 
         }
     }
