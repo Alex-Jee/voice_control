@@ -35,6 +35,7 @@ namespace voice_control
         {
             public string item_id; // 主体id
             public string action;
+            public string item_result;
         }
         private static List<StructDepItem> TextParser(string text)
         {
@@ -114,12 +115,12 @@ namespace voice_control
                             cmdItem.action = depItem.word;
                             hed_id = depItem.id;
                         }
-                        if (depItem.id > hed_id && depItem.word != applianceName)
+                        if (depItem.id > hed_id && depItem.word != applianceName && depItem.postag != "w")
                         {
                             cmdItem.action = cmdItem.action + depItem.word;
                         }
                     }
-                    cmdItem.item_result = applianceName + cmdItem.action + "完成";
+                    cmdItem.item_result = applianceName + cmdItem.action + "完成。";
                 }   
             }
             return cmdItem; 
