@@ -3,6 +3,7 @@ namespace voice_control
     public partial class UI : Form
     {
         SpeechRecord speech_record = new SpeechRecord();
+        SpeechSynthesis speech_synthesis = new SpeechSynthesis();
 
         public UI()
         {
@@ -79,6 +80,11 @@ namespace voice_control
                         break;
                 }
             }));
+        }
+
+        private void textBox3_TextChanged(object sender, EventArgs e)
+        {
+            speech_synthesis.SpeechSynthesisAndPlay(textBox3.Text);
         }
     }
 }
