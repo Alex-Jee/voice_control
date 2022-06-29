@@ -118,7 +118,7 @@ namespace voice_control
                         cmdItem.action = cmdItem.action + depItem.word;
                     }
                 }
-                cmdItem.item_result = applianceName + cmdItem.action + "完成。";
+                cmdItem.item_result = "执行指令" + applianceName + cmdItem.action + "完成。";
             }   
             return cmdItem; 
         }
