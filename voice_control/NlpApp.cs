@@ -76,6 +76,7 @@ namespace voice_control
         public static CommandItem getCommand(string text) {
             Dictionary<string, string> ItemIdTable =
             new Dictionary<string, string>() {{"电灯", "1"},
+                                               {"灯", "1"},
                                                {"电视", "2"},
                                                {"扫地机", "3"},
                                                };
@@ -90,7 +91,7 @@ namespace voice_control
                 if (depItem.postag == "n" || depItem.postag == "nz")
                 {
                     applianceName = depItem.word;
-                    if (applianceName == "电灯" || applianceName == "电视" || applianceName == "扫地机")
+                    if (applianceName == "电灯" || applianceName == "电视" || applianceName == "扫地机" || applianceName == "灯")
                     {
                         cmdItem.item_id = ItemIdTable[applianceName];
                     }
