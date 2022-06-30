@@ -72,3 +72,10 @@ D:\voice_control-main\voice_control\obj\Debug\net6.0-windows\refint\voice_contro
 D:\voice_control-main\voice_control\obj\Debug\net6.0-windows\voice_control.pdb
 D:\voice_control-main\voice_control\obj\Debug\net6.0-windows\voice_control.genruntimeconfig.cache
 D:\voice_control-main\voice_control\obj\Debug\net6.0-windows\ref\voice_control.dll
+C:\Users\jxf\Desktop\voice_control\voice_control\bin\Debug\net6.0-windows\NAudio.dll
+C:\Users\jxf\Desktop\voice_control\voice_control\bin\Debug\net6.0-windows\NAudio.Asio.dll
+C:\Users\jxf\Desktop\voice_control\voice_control\bin\Debug\net6.0-windows\NAudio.Core.dll
+C:\Users\jxf\Desktop\voice_control\voice_control\bin\Debug\net6.0-windows\NAudio.Midi.dll
+C:\Users\jxf\Desktop\voice_control\voice_control\bin\Debug\net6.0-windows\NAudio.Wasapi.dll
+C:\Users\jxf\Desktop\voice_control\voice_control\bin\Debug\net6.0-windows\NAudio.WinForms.dll
+C:\Users\jxf\Desktop\voice_control\voice_control\bin\Debug\net6.0-windows\NAudio.WinMM.dll

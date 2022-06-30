@@ -5638,19 +5638,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Administrator\\.nuget\\packages\\": {}
+    "C:\\Users\\jxf\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\voice_control-main\\voice_control\\voice_control.csproj",
+      "projectUniqueName": "C:\\Users\\jxf\\Desktop\\voice_control\\voice_control\\voice_control.csproj",
       "projectName": "voice_control",
-      "projectPath": "D:\\voice_control-main\\voice_control\\voice_control.csproj",
-      "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "D:\\voice_control-main\\voice_control\\obj\\",
+      "projectPath": "C:\\Users\\jxf\\Desktop\\voice_control\\voice_control\\voice_control.csproj",
+      "packagesPath": "C:\\Users\\jxf\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\jxf\\Desktop\\voice_control\\voice_control\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\jxf\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5703,7 +5703,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
       }
     }
   }

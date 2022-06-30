@@ -60,19 +60,19 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(5, 22);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.textBox1.Location = new System.Drawing.Point(6, 26);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.textBox1.Name = "textBox1";
             this.textBox1.ReadOnly = true;
-            this.textBox1.Size = new System.Drawing.Size(312, 23);
+            this.textBox1.Size = new System.Drawing.Size(400, 27);
             this.textBox1.TabIndex = 0;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(321, 22);
-            this.button1.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.button1.Location = new System.Drawing.Point(413, 26);
+            this.button1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(73, 25);
+            this.button1.Size = new System.Drawing.Size(94, 29);
             this.button1.TabIndex = 1;
             this.button1.Text = "选择语音";
             this.button1.UseVisualStyleBackColor = true;
@@ -80,11 +80,11 @@
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(5, 22);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.textBox2.Location = new System.Drawing.Point(6, 26);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.textBox2.Name = "textBox2";
             this.textBox2.ReadOnly = true;
-            this.textBox2.Size = new System.Drawing.Size(389, 23);
+            this.textBox2.Size = new System.Drawing.Size(499, 27);
             this.textBox2.TabIndex = 2;
             this.textBox2.Text = "示例：一段语音说：“小冰小冰，电视切换下一频道”";
             // 
@@ -92,99 +92,99 @@
             // 
             this.groupBox1.Controls.Add(this.textBox4);
             this.groupBox1.Controls.Add(this.textBox3);
-            this.groupBox1.Location = new System.Drawing.Point(12, 192);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.groupBox1.Location = new System.Drawing.Point(15, 226);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.groupBox1.Size = new System.Drawing.Size(398, 129);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.groupBox1.Size = new System.Drawing.Size(512, 152);
             this.groupBox1.TabIndex = 3;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "语音助手模拟";
             // 
             // textBox4
             // 
-            this.textBox4.Location = new System.Drawing.Point(5, 101);
-            this.textBox4.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.textBox4.Location = new System.Drawing.Point(6, 119);
+            this.textBox4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.textBox4.Name = "textBox4";
             this.textBox4.ReadOnly = true;
-            this.textBox4.Size = new System.Drawing.Size(394, 23);
+            this.textBox4.Size = new System.Drawing.Size(505, 27);
             this.textBox4.TabIndex = 1;
             this.textBox4.Text = "示例：文字显示“电视切换到下一频道”，同时自动用语音播报";
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(5, 22);
-            this.textBox3.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.textBox3.Location = new System.Drawing.Point(6, 26);
+            this.textBox3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.textBox3.Multiline = true;
             this.textBox3.Name = "textBox3";
             this.textBox3.ReadOnly = true;
-            this.textBox3.Size = new System.Drawing.Size(390, 75);
+            this.textBox3.Size = new System.Drawing.Size(500, 88);
             this.textBox3.TabIndex = 0;
             this.textBox3.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
             // 
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.pictureBox1);
-            this.groupBox2.Location = new System.Drawing.Point(17, 327);
-            this.groupBox2.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.groupBox2.Location = new System.Drawing.Point(22, 385);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Padding = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.groupBox2.Size = new System.Drawing.Size(119, 175);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.groupBox2.Size = new System.Drawing.Size(153, 206);
             this.groupBox2.TabIndex = 4;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "电灯";
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(0, 22);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.pictureBox1.Location = new System.Drawing.Point(0, 26);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(114, 148);
+            this.pictureBox1.Size = new System.Drawing.Size(147, 174);
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
             // groupBox3
             // 
             this.groupBox3.Controls.Add(this.textBox6);
-            this.groupBox3.Location = new System.Drawing.Point(141, 327);
-            this.groupBox3.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.groupBox3.Location = new System.Drawing.Point(181, 385);
+            this.groupBox3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Padding = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.groupBox3.Size = new System.Drawing.Size(133, 175);
+            this.groupBox3.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.groupBox3.Size = new System.Drawing.Size(171, 206);
             this.groupBox3.TabIndex = 5;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "电视";
             // 
             // textBox6
             // 
-            this.textBox6.Location = new System.Drawing.Point(0, 22);
-            this.textBox6.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.textBox6.Location = new System.Drawing.Point(0, 26);
+            this.textBox6.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.textBox6.Multiline = true;
             this.textBox6.Name = "textBox6";
             this.textBox6.ReadOnly = true;
-            this.textBox6.Size = new System.Drawing.Size(134, 148);
+            this.textBox6.Size = new System.Drawing.Size(171, 173);
             this.textBox6.TabIndex = 1;
             // 
             // groupBox4
             // 
             this.groupBox4.Controls.Add(this.textBox7);
-            this.groupBox4.Location = new System.Drawing.Point(278, 327);
-            this.groupBox4.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.groupBox4.Location = new System.Drawing.Point(357, 385);
+            this.groupBox4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Padding = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.groupBox4.Size = new System.Drawing.Size(128, 175);
+            this.groupBox4.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.groupBox4.Size = new System.Drawing.Size(165, 206);
             this.groupBox4.TabIndex = 5;
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "扫地机";
             // 
             // textBox7
             // 
-            this.textBox7.Location = new System.Drawing.Point(4, 22);
-            this.textBox7.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.textBox7.Location = new System.Drawing.Point(5, 26);
+            this.textBox7.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.textBox7.Multiline = true;
             this.textBox7.Name = "textBox7";
             this.textBox7.ReadOnly = true;
-            this.textBox7.Size = new System.Drawing.Size(125, 148);
+            this.textBox7.Size = new System.Drawing.Size(160, 173);
             this.textBox7.TabIndex = 1;
             // 
             // groupBox5
@@ -193,9 +193,11 @@
             this.groupBox5.Controls.Add(this.labelStateName);
             this.groupBox5.Controls.Add(this.buttonIdentifyRightnow);
             this.groupBox5.Controls.Add(this.buttonSpeechMic);
-            this.groupBox5.Location = new System.Drawing.Point(12, 12);
+            this.groupBox5.Location = new System.Drawing.Point(15, 14);
+            this.groupBox5.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Size = new System.Drawing.Size(399, 57);
+            this.groupBox5.Padding = new System.Windows.Forms.Padding(4);
+            this.groupBox5.Size = new System.Drawing.Size(513, 67);
             this.groupBox5.TabIndex = 6;
             this.groupBox5.TabStop = false;
             this.groupBox5.Text = "使用本地麦克风";
@@ -203,28 +205,30 @@
             // labelState
             // 
             this.labelState.AutoSize = true;
-            this.labelState.Location = new System.Drawing.Point(265, 26);
+            this.labelState.Location = new System.Drawing.Point(341, 31);
+            this.labelState.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelState.Name = "labelState";
-            this.labelState.Size = new System.Drawing.Size(44, 17);
+            this.labelState.Size = new System.Drawing.Size(54, 20);
             this.labelState.TabIndex = 3;
             this.labelState.Text = "未开始";
             // 
             // labelStateName
             // 
             this.labelStateName.AutoSize = true;
-            this.labelStateName.Location = new System.Drawing.Point(201, 26);
+            this.labelStateName.Location = new System.Drawing.Point(258, 31);
+            this.labelStateName.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelStateName.Name = "labelStateName";
-            this.labelStateName.Size = new System.Drawing.Size(68, 17);
+            this.labelStateName.Size = new System.Drawing.Size(84, 20);
             this.labelStateName.TabIndex = 2;
             this.labelStateName.Text = "当前状态：";
             // 
             // buttonIdentifyRightnow
             // 
             this.buttonIdentifyRightnow.Enabled = false;
-            this.buttonIdentifyRightnow.Location = new System.Drawing.Point(101, 22);
-            this.buttonIdentifyRightnow.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.buttonIdentifyRightnow.Location = new System.Drawing.Point(130, 26);
+            this.buttonIdentifyRightnow.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.buttonIdentifyRightnow.Name = "buttonIdentifyRightnow";
-            this.buttonIdentifyRightnow.Size = new System.Drawing.Size(77, 25);
+            this.buttonIdentifyRightnow.Size = new System.Drawing.Size(99, 29);
             this.buttonIdentifyRightnow.TabIndex = 1;
             this.buttonIdentifyRightnow.Text = "立刻检测";
             this.buttonIdentifyRightnow.UseVisualStyleBackColor = true;
@@ -232,10 +236,10 @@
             // 
             // buttonSpeechMic
             // 
-            this.buttonSpeechMic.Location = new System.Drawing.Point(5, 22);
-            this.buttonSpeechMic.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.buttonSpeechMic.Location = new System.Drawing.Point(6, 26);
+            this.buttonSpeechMic.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.buttonSpeechMic.Name = "buttonSpeechMic";
-            this.buttonSpeechMic.Size = new System.Drawing.Size(92, 25);
+            this.buttonSpeechMic.Size = new System.Drawing.Size(118, 29);
             this.buttonSpeechMic.TabIndex = 1;
             this.buttonSpeechMic.Text = "点击开始说话";
             this.buttonSpeechMic.UseVisualStyleBackColor = true;
@@ -245,9 +249,11 @@
             // 
             this.groupBox6.Controls.Add(this.textBox1);
             this.groupBox6.Controls.Add(this.button1);
-            this.groupBox6.Location = new System.Drawing.Point(12, 75);
+            this.groupBox6.Location = new System.Drawing.Point(15, 88);
+            this.groupBox6.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox6.Name = "groupBox6";
-            this.groupBox6.Size = new System.Drawing.Size(399, 53);
+            this.groupBox6.Padding = new System.Windows.Forms.Padding(4);
+            this.groupBox6.Size = new System.Drawing.Size(513, 62);
             this.groupBox6.TabIndex = 7;
             this.groupBox6.TabStop = false;
             this.groupBox6.Text = "使用本地音频文件";
@@ -255,18 +261,20 @@
             // groupBox7
             // 
             this.groupBox7.Controls.Add(this.textBox2);
-            this.groupBox7.Location = new System.Drawing.Point(12, 134);
+            this.groupBox7.Location = new System.Drawing.Point(15, 158);
+            this.groupBox7.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox7.Name = "groupBox7";
-            this.groupBox7.Size = new System.Drawing.Size(399, 52);
+            this.groupBox7.Padding = new System.Windows.Forms.Padding(4);
+            this.groupBox7.Size = new System.Drawing.Size(513, 61);
             this.groupBox7.TabIndex = 8;
             this.groupBox7.TabStop = false;
             this.groupBox7.Text = "识别结果";
             // 
             // UI
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(422, 513);
+            this.ClientSize = new System.Drawing.Size(543, 604);
             this.Controls.Add(this.groupBox7);
             this.Controls.Add(this.groupBox6);
             this.Controls.Add(this.groupBox5);
@@ -275,7 +283,7 @@
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "UI";
             this.Text = "智能家居语音控制系统";
             this.groupBox1.ResumeLayout(false);
