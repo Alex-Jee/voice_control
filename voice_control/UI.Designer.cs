@@ -86,7 +86,7 @@
             this.textBox2.ReadOnly = true;
             this.textBox2.Size = new System.Drawing.Size(499, 27);
             this.textBox2.TabIndex = 2;
-            this.textBox2.Text = "示例：一段语音说：“小冰小冰，电视切换下一频道”";
+            this.textBox2.Text = "示例：一段语音说：“电视切换下一频道”";
             // 
             // groupBox1
             // 
