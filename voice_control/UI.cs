@@ -196,7 +196,7 @@ namespace voice_control
                                                 break;
                                         }
                                     }
-                                    textBox6.Text += "电视切换到第" + channel + "频道";
+                                    textBox6.Text = "电视切换到第" + channel + "频道";
                                 }
                                 break;
                         }
